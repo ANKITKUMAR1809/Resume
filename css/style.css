@@ -1,11 +1,14 @@
 body {
   background-color: lightgray;
   padding:0;
-    /* display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; */
   margin: 0px;
+}
+h1{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px  4px black;
+  font-size: 4rem;
+  margin-bottom: 0px;
 }
 
 .image {
@@ -32,22 +35,37 @@ body {
 
   /* display: block; */
   position: absolute;
+  cursor: pointer;
   right: 30%;
+}
+
+#project{
+  box-shadow: 4px 5px 12px 1px black;
+  float: right;
+  padding: 5px 20px;
+
+  /* display: block; */
+  position: absolute;
+  left: 30%;
+  cursor: pointer;
 }
 
 #left{
   position: absolute;
-  height: 100vh;
+  height: 100%;
   z-index: 10;
   top:0;
-  width:200px;
+  right:0;
+  width:0px;
   background-color: white;
-  animation:example;
-  animation-duration:4s;
-
 }
 
-@keyframes example {
-  from {width:0px;}
-  to {width:100%;}
+#right{
+  position: absolute;
+  height: 100%;
+  z-index: 10;
+  top:0;
+  left:0;
+  width:0px;
+  background-color: white;
 }
