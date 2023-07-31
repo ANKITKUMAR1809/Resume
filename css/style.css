@@ -59,7 +59,7 @@ body {
 #right{
   position: absolute;
   height: 100%;
-  z-index: 10;
+  /* z-index: 10; */
   top:0;
   left:0;
   width:0px;
@@ -69,22 +69,44 @@ body {
   display:none;
   text-align: center;
   color: white;
-  text-shadow: 2px 2px  25px rgb(0, 60, 255);
+  text-shadow: 10px 12px  25px rgb(0, 60, 255);
   font-size: 4rem;
   margin-bottom: 0px;
 }
 
 #leftRight{
-  margin:20% 30%;
-  z-index: 13;
-  height:200px;
+  display: none;
+  margin:auto;
+  margin-top:10%;
+  width:0px;
+  /* z-index: 10; */
+  height:50%;
   animation:border 1s linear infinite;  
 }
 @keyframes border {
-  0%{border-top:2px solid rgb(9, 158, 244);}
-  25%{border-right:2px solid rgb(9, 158, 244);}
-  50%{border-bottom:2px solid rgb(9, 158, 244);}
-  75%{border-left:2px solid rgb(9, 158, 244);}
-  100%{border-top:none;}
+  0%{border-top:1px solid rgb(9, 158, 244);}
+  25%{border-right:1px solid rgb(9, 158, 244);}
+  50%{border-bottom:1px solid rgb(9, 158, 244);}
+  75%{border-left:1px solid rgb(9, 158, 244);}
+  /* 100%{border-top:none;}  */
 
+}
+
+#resume{
+  box-shadow: 4px 5px 12px 1px rgb(0, 60, 255);
+  color: white;
+  float: right;
+  padding: 5px 20px;
+  margin-right:1rem;
+  position: absolute;
+  right: 0;
+  top:50%;
+  cursor: pointer;
+}
+
+.proHead{
+  text-align: center;
+  overflow: hidden;
+  
+  padding: 1REM;;
 }
