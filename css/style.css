@@ -3,7 +3,7 @@ body {
   padding:0;
   margin: 0px;
 }
-h1{
+#res{
   text-align: center;
   color: white;
   text-shadow: 2px 2px  4px black;
@@ -32,21 +32,17 @@ h1{
   box-shadow: 4px 5px 12px 1px black;
   float: right;
   padding: 5px 20px;
-
-  /* display: block; */
   position: absolute;
   cursor: pointer;
-  right: 30%;
+  right: 0;
 }
 
 #project{
   box-shadow: 4px 5px 12px 1px black;
   float: right;
   padding: 5px 20px;
-
-  /* display: block; */
   position: absolute;
-  left: 30%;
+  left: 0;
   cursor: pointer;
 }
 
@@ -67,5 +63,28 @@ h1{
   top:0;
   left:0;
   width:0px;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
+}
+#rpro{
+  display:none;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px  25px rgb(0, 60, 255);
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
+#leftRight{
+  margin:20% 30%;
+  z-index: 13;
+  height:200px;
+  animation:border 1s linear infinite;  
+}
+@keyframes border {
+  0%{border-top:2px solid rgb(9, 158, 244);}
+  25%{border-right:2px solid rgb(9, 158, 244);}
+  50%{border-bottom:2px solid rgb(9, 158, 244);}
+  75%{border-left:2px solid rgb(9, 158, 244);}
+  100%{border-top:none;}
+
 }
