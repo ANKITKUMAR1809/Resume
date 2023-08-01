@@ -67,18 +67,31 @@ body {
 }
 #rpro{
   display:none;
-  text-align: center;
   color: white;
   text-shadow: 10px 12px  25px rgb(0, 60, 255);
   font-size: 4rem;
   margin-bottom: 0px;
+  
+}
+#upright{
+  display:none;
+  text-align: center ;
+  writing-mode: vertical-lr;
+  border: solid black 1px;
+  height: 100%;
+  margin: 5px;
+  text-orientation: upright;
 }
 
 #leftRight{
   display: none;
-  margin:auto;
-  margin-top:10%;
+  position: absolute;
+  top:20%;
+  left:25%;
+  /* margin:auto; */
+  /* margin-top:10%; */
   width:0px;
+  border :2px solid black;
   /* z-index: 10; */
   height:50%;
   animation:border 1s linear infinite;  
