@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ANKIT KUMAR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/bca90eb407.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
     <link rel="stylesheet" href="./css/style.css">
@@ -12,31 +13,41 @@
 </head>
 
 <body>
-    <h1 id="res">RESUME</h1>
+    <h1 class="typing">
+        <a href="" id=" res" class="typewrite" data-period="2000"
+            data-type='[ "Hi, I am Ankit Kumar From Bihar", "I am Developer..", "Its My Portfolio", "I Love to Develop my own Design." ]'>
+            <span class="wrap"></span>
+        </a>
+    </h1>
+    <!-- <h1 id="res">RESUME</h1> -->
 
     <img src="./images/mypic.jpg" alt="" class="image">
+    <div class="responsive">
+        <span id="project" onclick="showRight()">&Gt;Project</span>
 
-    <span id="project" onclick="showRight()">&gt;&gt;Project</span>
+        <span id="skill" onclick="showLeft()">&Lt;Skill</span>
+    </div>
 
-    <span id="skill" onclick="showLeft()">&lt;&lt;Skill</span>
-
-    <div id="left"></div>
+    <div id="left">
+        <span id="resume1" onclick="showMain1()">&Lt;Resume</span>
+    </div>
 
     <div id="right">
-        <div  id="upright">
+        <div id="upright">
             <h1 id="rpro">Project</h1>
         </div>
+        <div class="icon-bar" id="icon">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github-square"></i></a>
+            <a href="mailto:ankitkumar1878@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a href="tel:+918102761121"><i class="fas fa-phone-square"></i></a>
+            <a href="#"><img src="./images/leetcode.svg" alt="" width="15px"></i></a>
+        </div>
         <div id="leftRight">
-            <h2 style="color: whitesmoke;" class="proHead">Project 1 Name - Link4U</h2>
-            <details style="color: whitesmoke; margin: 1rem; cursor: pointer;">This Website is only Based on Links its all about the
-                category of link like youtube channels and its subcategory, websites links and its subcategory.Using
-                HTML & CSS</details>
-            <a href="https://github.com/ANKITKUMAR1809/Link4U" target="_blank"
-                style="color: whitesmoke; margin: 1rem; text-decoration: none;">Respository Link</a>
 
         </div>
 
-        <span id="resume" onclick="showMain()">&Lt;Resume</span>
+        <span id="resume" onclick="showMain()">Resume&Gt;</span>
 
     </div>
 </body>
