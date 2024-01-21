@@ -19,8 +19,8 @@ function showRight(){
     elem.style.transition="2s";
     elem1.style.display="block"
     elem.style.width="100%";
-    elem2.style.width="50%";
-    elem2.style.display="inline-block";
+    elem2.style.width="100%";
+    elem2.style.display="flex";
     upright.style.display="inline-block";
 
 }
@@ -30,7 +30,7 @@ function showMain(){
     const elem1= document.getElementById("rpro");
     const elem2= document.getElementById("leftRight");
     const upright= document.getElementById("upright");
-    const icon=document.getElementsByClassName("icon-bar");
+    const icon=document.getElementById("icon");
     elem.style.transition="2s";
     elem.style.width="0px";
     elem1.style.display="none"
