@@ -7,6 +7,8 @@ function showLeft(){
     // resume 1
     const resume1=document.getElementById("resume1")
     resume1.style.display="inline-block";
+    const lefth1=document.getElementById("lefth1");
+    lefth1.style.display="block";
 }
 
 function showRight(){
@@ -45,6 +47,9 @@ function showMain1(){
     elem.style.width="0px";
     const resume1=document.getElementById("resume1")
     resume1.style.display="none";
+    // lefth1
+    const lefth1=document.getElementById("lefth1");
+    lefth1.style.display="none";
 }
 // 
 // 

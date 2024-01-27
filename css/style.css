@@ -53,31 +53,37 @@ body {
 
 
 #skill {
-  box-shadow: 4px 5px 12px 1px black;
   float: right;
   padding: 5px 20px;
   margin: 4px;
-  border-radius: 5px;
   position: absolute;
   cursor: pointer;
   right: 0;
 }
-
-#project {
+#skill:hover{
   box-shadow: 4px 5px 12px 1px black;
+  border-radius: 5px;
+  
+}
+#project {
   float: right;
   margin: 4px;
-  border-radius: 5px;
   padding: 5px 20px;
   position: absolute;
   left: 0;
   cursor: pointer;
+}
+#project:hover{
+  box-shadow: 4px 5px 12px 1px black;
+  border-radius: 5px;
+  
 }
 
 #left {
   position: absolute;
   height: 100%;
   z-index: 10;
+  overflow: hidden;
   top: 0;
   right: 0;
   width: 0px;
@@ -87,7 +93,7 @@ body {
 #right {
   position: absolute;
   height: 100%;
-  overflow:scroll;
+  overflow:hidden;
   /* z-index: 10; */
   top: 0;
   left: 0;
@@ -161,9 +167,7 @@ body {
 .proHead {
   text-align: center;
   overflow: hidden;
-
   padding: 1rem;
-  ;
 }
 
 .icon-bar {
@@ -217,4 +221,9 @@ body {
 .container {
   padding: 2px 16px;
   /* color:white; */
+}
+
+/* left lefth1 */
+#lefth1{
+  display:none;
 }

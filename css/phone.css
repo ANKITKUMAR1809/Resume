@@ -75,17 +75,6 @@ body {
   top: 75%;
   cursor: pointer;
 }
-
-#left {
-  position: absolute;
-  height: 100%;
-  z-index: 10;
-  top: 0;
-  right: 0;
-  width: 0px;
-  background-color: white;
-}
-
 #right {
   position: absolute;
   height: 100%;
@@ -172,4 +161,17 @@ body {
   padding:0;
   font-size: 12px;
 }
-
+/* left skill lefth1  */
+#left {
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  top: 0;
+  right: 0;
+  width: 0px;
+  background-color: white;
+}
+#lefth1{
+  display:none;
+}
