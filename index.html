@@ -19,15 +19,47 @@
             <span class="wrap"></span>
         </a>
     </h1>
-    <img src="./images/mypic.jpg" alt="" class="image">
+    <a href="./AK RESUME V1.pdf" download="AnkitKumarResume">
+        <img src="./images/mypic.jpg" alt="" class="image">
+    </a>
     <div class="responsive">
         <span id="project" onclick="showRight()">&Gt;Project</span>
 
         <span id="skill" onclick="showLeft()">&Lt;Skill</span>
     </div>
+    <div id="bottom">
+        Download My Resume by clicking on my Image <span onclick="disappear()">X</span>
+    </div>
     <!-- here resume got the path of my skills -->
     <div id="left">
-        <h1 id="lefth1">Skill & Certification</h1>
+        <h1 id="lefth1">-Skills</h1>
+        <p id="leftp">Languages,Technologies and tools that I have learned and applied to my projects</p>
+        <div id="leftflex">
+            <div class="skill">
+                <img src="./images/html.svg" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="./images/css.svg" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="./images/javascript.svg" alt="Javascript">
+                <p>Javascript</p>
+            </div>
+            <div class="skill">
+                <img src="./images/react.svg" alt="Reactjs">
+                <p>React Js</p>
+            </div>
+            <div class="skill">
+                <img src="./images/nodejs.svg" alt="Javascript">
+                <p>Node Js</p>
+            </div>
+            <div class="skill">
+                <img src="./images/express.svg" alt="Javascript">
+                <p>Express</p>
+            </div>
+        </div>
         <span id="resume1" onclick="showMain1()">&Lt;Resume</span>
 
     </div>
@@ -83,6 +115,7 @@
         <span id="resume" onclick="showMain()">Resume&Gt;</span>
 
     </div>
+  
 </body>
 
 </html>

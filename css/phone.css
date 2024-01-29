@@ -5,31 +5,33 @@
   font-size: 2rem;
 }
 
-.responsive {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-}
-
 .image {
   width: 200px;
   height: 200px;
   top: 10%;
 }
-
+.responsive {
+  position: absolute;
+  height:50%;
+  top:50%;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content:center ;
+  gap: space-between;
+  width: 100%;
+}
 #skill {
   box-shadow: 4px 5px 12px 1px black;
-  right: 38%;
-  top: 68%;
+  float: none;
+
 }
 
 #project {
   box-shadow: black 4px 5px 12px 1px;
   padding: 5px 14px;
-  left: 36%;
-  top: 75%;
+  float: none;
 }
 
 
@@ -74,4 +76,12 @@
 /* left skill lefth1  */
 #lefth1{
   display: none;
+}
+#bottom{
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 12px;
+}
+#bottom span{
+  font-size: 15px;
 }

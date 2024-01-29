@@ -33,7 +33,7 @@ function showMain(){
     const elem2= document.getElementById("leftRight");
     const upright= document.getElementById("upright");
     const icon=document.getElementById("icon");
-    elem.style.transition="2s";
+    elem.style.transition="2s ease-in";
     elem.style.width="0px";
     elem1.style.display="none"
     elem2.style.width="0px";
@@ -112,3 +112,12 @@ window.onload = function() {
     // css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid black}";
     document.body.appendChild(css);
 };
+// span on click disappear
+function disappear(){
+    const msg=document.getElementById("bottom");
+    bottom.style.display="none";
+}
+setTimeout(()=>{
+    const msg=document.getElementById("bottom")
+    bottom.style.display="inline-block";
+},1400)
