@@ -9,6 +9,10 @@ function showLeft(){
     resume1.style.display="inline-block";
     const lefth1=document.getElementById("lefth1");
     lefth1.style.display="block";
+    const leftflex=document.getElementById("leftflex");
+    leftflex.style.display="flex";
+    const leftp=document.getElementById("leftp");
+    leftp.style.display="block";
 }
 
 function showRight(){
@@ -50,6 +54,11 @@ function showMain1(){
     // lefth1
     const lefth1=document.getElementById("lefth1");
     lefth1.style.display="none";
+    const leftflex=document.getElementById("leftflex");
+    leftflex.style.display="none";
+    const leftp=document.getElementById("leftp");
+    leftp.style.display="none";
+
 }
 // 
 // 

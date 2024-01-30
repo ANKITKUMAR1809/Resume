@@ -235,24 +235,26 @@ body {
   text-align: center;
 }
 #leftp{
+  display: none;
   text-align: center;
   font-size:25px;
 }
 #leftflex{
   margin: auto;
   background-color: rgb(242, 176, 54);
-  display: flex;
+  display: none;
   border-radius: 12px;
   width:50%;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: space-around;
   align-items: center;
 }
-.skill{
+/* .skill{
   transition: translate(20px 20px) 1.5s;
   transform: translate();
-}
+} */
 .skill p{
   margin: 0px;
   text-align: center;
